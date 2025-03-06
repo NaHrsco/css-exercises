@@ -1,0 +1,23 @@
+/* CSS file of index.html 02-class */
+
+.red {
+    background-color: rgb(214, 137, 137);
+    font-size: 24px;
+    font-family: "Verdana", "DejaVu Sans", "sans-serif";
+}
+
+.big {
+    font-size: 32px;
+}
+
+#id2 {
+    color: rgb(0, 85, 255);
+    font-size: 48px;
+    font-family: "Times New Roman", serif ; 
+}
+
+#id4 {
+    background-color: rgb(100, 255, 100);
+    font-size: 32px;
+    font-weight: bold;
+}
