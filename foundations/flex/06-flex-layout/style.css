@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
 }
 
 img {
@@ -13,8 +16,8 @@ img {
 
 button {
   font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
+  border: 20px;
+  border-radius: 16px;
   background: #eee;
 }
 
@@ -23,4 +26,55 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* header section */
+.header{
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+/* content section */
+.content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.buttons,
+.text{
+  display: flex;
+}
+
+.buttons{
+  gap: 8px;
+  padding: 20px;
+}
+
+/* footer section */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+
+/* Unniversal */
+.left-links,
+.right-links{
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.right-links{
+  padding: 0 40px;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
 }
